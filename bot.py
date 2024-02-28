@@ -16,7 +16,7 @@ bot = commands.Bot(command_prefix = ">", intents = discord.Intents.all())
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity = discord.activity.Game(name="Hongmei"))
+    await bot.change_presence(activity = discord.activity.Game(name="SpaceX Crash Simulator"))
     print(f"{bot.user.name} is online.")
 
 @bot.command()
