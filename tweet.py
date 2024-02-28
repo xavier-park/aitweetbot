@@ -1,11 +1,11 @@
 import tweepy
 import os
 
-a = os.getenv("c_key")
-b = os.getenv("c_secret")
-c = os.getenv("a_token")
-d = os.getenv("a_token_secret")
-e = os.getenv("bearer")
+a = os.getenv("school_consumer_key")
+b = os.getenv("school_consumer_secret")
+c = os.getenv("school_access_token")
+d = os.getenv("school_access_secret")
+e = os.getenv("school_bearer")
 
 # pass in twitter API auth keys
 client = tweepy.Client(
