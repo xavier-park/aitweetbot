@@ -32,7 +32,7 @@ async def suggest(ctx):
 async def approve(ctx):
     if hasattr(bot, 'newPost'):  # Check if a new post has been suggested
         await tweet.post(bot.newPost)
-        await ctx.send("Posted!\nhttps://twitter.com/opskittlez11")
+        await ctx.send("Posted!\nhttps://twitter.com/esports_at_CU")
         del bot.newPost  # Delete the new post after it's been posted
 
     else:
